@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="no.ntnu.tollefsen.crazychat.MessageActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/messageText">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/messageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_above="@+id/send"
+            android:scrollbars="vertical" />
+    </android.support.design.widget.CoordinatorLayout>
+
+    <EditText
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:background="#91f1f1f1"
+        android:layout_gravity="bottom"
+        android:layout_alignTop="@+id/send"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/send"
+        android:padding="5dp"
+        android:hint="Dine tanker" />
+
+    <ImageButton
+        android:id="@+id/send"
+        android:background="#91f1f1f1"
+        android:src="@drawable/ic_menu_send"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

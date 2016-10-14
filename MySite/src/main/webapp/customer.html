@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.css">
+ 
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Ajax Bootstrap table & </br>Java EE webservice</h1>
+            </div>
+        </div>
+        <div class="container">
+
+           <table id="table2" data-toggle="table" class="table table-bordered table-striped table-condensed" data-url="services/customer">
+                <thead>
+                    <tr>
+                        <th data-field="id">Id</th>
+                        <th data-field="name">Name</th>
+                        <th data-field="phone">Phone</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.js"></script>
+    </body>
+</html>
