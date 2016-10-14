@@ -1,64 +1,10 @@
 <resources>
-    <string name="app_name">smsApp</string>
-    <string name="main_tb_title">Meny</string>
-    <string name="main_tb_subtitle">for alt du behøver</string>
-    <string name="menu_1">Valg 1</string>
-    <string name="menu_2">Valg 2</string>
-    <string name="menu_3">Valg 3</string>
-    <string name="searchable">Searchable</string>
-    <string name="menu_search">Search</string>
-    <string name="edit_message">Skriv en melding</string>
-    <string name="button_send">Send</string>
-    <string name="fab_tb_title">Uleste Meldinger</string>
-    <string name="contactList_tb_title">Kontaker</string>
+    <string name="app_name">SearchApp</string>
 
-    <string-array name="Messages">
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
-        <item>Melding 1</item>
-        <item>Melding 2</item>
-        <item>Melding 3</item>
-        <item>Melding 4</item>
-        <item>Melding 5</item>
-        <item>Melding 6</item>
-        <item>Melding 7</item>
-        <item>Melding 8</item>
-        <item>Melding 9</item>
-        <item>Melding 10</item>
-        <item>Melding 11</item>
-        <item>Melding 12</item>
-        <item>Melding 13</item>
-        <item>Melding 14</item>
-        <item>Melding 15</item>
-        <item>Melding 16</item>
-        <item>Melding 17</item>
-        <item>Melding 18</item>
-        <item>Melding 19</item>
-        <item>Melding 20</item>
-
-    </string-array>
-
-    <string-array name="Other_Messages">
-
-        <item>Melding 21</item>
-        <item>Melding 22</item>
-        <item>Melding 23</item>
-        <item>Melding 24</item>
-        <item>Melding 25</item>
-        <item>Melding 26</item>
-        <item>Melding 27</item>
-        <item>Melding 28</item>
-        <item>Melding 29</item>
-        <item>Melding 30</item>
-        <item>Melding 31</item>
-        <item>Melding 32</item>
-        <item>Melding 33</item>
-        <item>Melding 34</item>
-        <item>Melding 35</item>
-        <item>Melding 36</item>
-        <item>Melding 37</item>
-        <item>Melding 38</item>
-        <item>Melding 39</item>
-        <item>Melding 40</item>
-
-    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Search Hint</string>
+    <string name="search">Search</string>
 </resources>
